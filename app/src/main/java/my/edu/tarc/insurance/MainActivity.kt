@@ -80,6 +80,34 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
                 }
+            }else {
+                when (age) {
+                    1 -> {
+                        if (smoker) {
+                            extra = 100
+                        }
+                    }
+                    2 -> {
+                        if (smoker) {
+                            extra = 150
+                        }
+                    }
+                    3 -> {
+                        if (smoker) {
+                            extra = 200
+                        }
+                    }
+                    4 -> {
+                        if (smoker) {
+                            extra = 250
+                        }
+                    }
+                    5 -> {
+                        if (smoker) {
+                            extra = 300
+                        }
+                    }
+                }
             }
 
 
